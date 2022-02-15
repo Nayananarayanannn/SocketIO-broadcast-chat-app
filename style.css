@@ -1,0 +1,36 @@
+body{
+    width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+}
+#mainchat{
+    width: 100%;
+    max-width: 600px;
+}
+#mainchat div{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+#mainchat div:nth-child(2n){
+    background-color: white;
+    color: black;
+}
+#chatform{
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+#listName{
+    background-color: yellow;
+    width: 20vw;
+    position:absolute;
+    left: 100px;
+}
+#userConnection{
+    background-color: aliceblue;
+    width: 20vw;
+    position: absolute;
+    right: 100px;
+}
